@@ -1,3 +1,6 @@
+.profile {
+  color: var(--text);
+}
 .profile h3 {
   text-align: center;
   color: var(--text);
