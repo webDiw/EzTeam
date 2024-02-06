@@ -14,12 +14,12 @@ const LangAbsolute = ({ setLang }) => {
     {
       title: "Русский",
       langKey: "ru",
-      flag: "../../../../img/Header/russia.png",
+      flag: "../../../../img/Header/Russia.png",
     },
     {
       title: "Қазақ",
       langKey: "kz",
-      flag: "../../../../img/Header/kazakhstan.png",
+      flag: "../../../../img/Header/Kazakhstan.png",
     },
   ];
 
