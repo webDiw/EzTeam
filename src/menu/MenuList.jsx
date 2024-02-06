@@ -61,7 +61,7 @@ const MenuList = () => {
                   <i className="fa-solid fa-gamepad"></i>
                   <div className={Style.navigation__id}>{id + 1}</div>
                   <p>{data.name}</p>
-                  <p style={{ marginLeft: "auto" }}>{id}</p>
+                  {/* <p style={{ marginLeft: "auto" }}>{id}</p> */}
                 </div>
               </Link>
             </li>
