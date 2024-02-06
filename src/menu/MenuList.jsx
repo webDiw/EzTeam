@@ -32,6 +32,11 @@ const arrayLinks = [
     name: "Killing Floor 2",
     img: "../../img/background-img/KillingFloor2.jpeg",
   },
+  {
+    to: "/mob",
+    name: "Mobile Legends",
+    img: "../../img/background-img/mob.jpg",
+  },
 ];
 
 const MenuList = () => {

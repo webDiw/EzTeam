@@ -11,6 +11,7 @@ const Preloader = lazy(() => import("./Preloaders/Preloader")),
   RainbowSix = lazy(() => import("../main/RainbowSix")),
   Phasmophobia = lazy(() => import("../main/Phasmophobia")),
   KillingFloor2 = lazy(() => import("../main/FillingFloor2")),
+  MobileLegends = lazy(() => import("../main/MobileLegends")),
   Profile = lazy(() => import("../main/profile/Profile")),
   privatRoutes = [
     {
@@ -46,6 +47,10 @@ const Preloader = lazy(() => import("./Preloaders/Preloader")),
     {
       path: "/killing",
       Component: KillingFloor2,
+    },
+    {
+      path: "/mob",
+      Component: MobileLegends,
     },
   ];
 
