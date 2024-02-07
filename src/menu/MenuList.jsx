@@ -41,18 +41,18 @@ const arrayLinks = [
 
 const MenuList = () => {
   return (
-    <nav>
+    <nav className={Style.naviagation_md}>
       <ul>
         {arrayLinks &&
           arrayLinks.map((data, id) => (
             <li key={id}>
               <Link
                 to={data.to}
-                onClick={() => {
-                  if (window.innerWidth < 768) {
-                    document.querySelector("aside").style.display = "none";
-                  }
-                }}
+                // onClick={() => {
+                //   if (window.innerWidth < 768) {
+                //     document.querySelector("aside").style.display = "none";
+                //   }
+                // }}
               >
                 <div
                   style={{ background: `url(${data.img})` }}

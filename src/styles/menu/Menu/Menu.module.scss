@@ -11,8 +11,19 @@
   }
 }
 
+.onmobile {
+  display: none;
+  padding-top: 60px;
+  height: 100svh;
+  background-color: var(--main_bg);
+}
+
 @media (max-width: 768px) {
   .main_pc {
     display: none;
+  }
+
+  .onmobile {
+    display: block;
   }
 }

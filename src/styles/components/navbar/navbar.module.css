@@ -72,14 +72,7 @@
 }
 @media only screen and (max-width: 768px) {
   .menu_aside {
-    display: block;
-    height: 100svh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    background-color: var(--main_bg);
-    width: 100vh;
-    padding-top: 60px;
-    position: fixed;
+    display: none;
   }
   .footer {
     left: 0;
