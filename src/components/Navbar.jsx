@@ -39,28 +39,11 @@ const Navbar = () => {
     });
   }, []);
 
-  // if (
-  //   window.innerWidth <= 768 &&
-  //   window.location.pathname !== "/" &&
-  //   document.querySelector("aside")
-  // ) {
-  //   document.querySelector("aside").style.display = "none";
-  // }
-
-  // window.addEventListener("resize", () => {
-  //   if (window.innerWidth <= 768 && window.location.pathname !== "/") {
-  //     document.querySelector("aside").style.display = "none";
-  //   } else document.querySelector("aside").style.display = "block";
-  // });
-
   return (
     <>
       <header className={Style.header}>
         <Link
           to={"/"}
-          // onClick={() => {
-          //   document.querySelector("aside").style.display = "block";
-          // }}
         >
           <img
             className={Style.header_logo}

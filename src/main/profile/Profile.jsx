@@ -15,7 +15,7 @@ const Profile = () => {
   const [cards] = useCollectionData(
     query(
       collection(db, "users", user.uid, "cards"),
-      orderBy("createdAt", "asc")
+      orderBy("createdAt", "desc")
     )
   );
 
@@ -84,9 +84,7 @@ const Profile = () => {
                           <i className="fa-solid fa-trophy"></i>
                           {data.rang}
                         </p>
-                        <p style={{ marginTop: "10px" }}>
-                          {data.game}
-                        </p>
+                        <p style={{ marginTop: "10px" }}>{data.game}</p>
                       </div>
                     </div>
                     <div

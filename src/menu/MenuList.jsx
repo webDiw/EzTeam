@@ -48,11 +48,6 @@ const MenuList = () => {
             <li key={id}>
               <Link
                 to={data.to}
-                // onClick={() => {
-                //   if (window.innerWidth < 768) {
-                //     document.querySelector("aside").style.display = "none";
-                //   }
-                // }}
               >
                 <div
                   style={{ background: `url(${data.img})` }}

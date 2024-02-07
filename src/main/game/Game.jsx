@@ -21,7 +21,7 @@ import ModalClose from "../../components/modalClose";
 const Game = ({ nameGame, arrayRank }) => {
   const [user] = useAuthState(auth);
   const [cards] = useCollectionData(
-    query(collection(db, nameGame), orderBy("createdAt", "asc"))
+    query(collection(db, nameGame), orderBy("createdAt", "desc"))
   );
   const [t] = useTranslation();
   const [cardStatus, setCardStatus] = useState(false);
@@ -94,10 +94,6 @@ const Game = ({ nameGame, arrayRank }) => {
       createdAt: Timestamp.fromDate(new Date()),
     });
 
-    // await updateDoc(chatsRef, {
-    //   text: value.trim(),
-    //   time: Timestamp.fromDate(new Date()),
-    // });
     setCardStatus((prev) => (prev = false));
     setCardData({
       uid: user && user.uid,
@@ -400,6 +396,7 @@ const Game = ({ nameGame, arrayRank }) => {
                             <i className="fa-solid fa-trophy"></i>
                             {data.rang}
                           </p>
+                          <p style={{ marginTop: "10px" }}>{data.game}</p>
                         </div>
                       </div>
                       <div
