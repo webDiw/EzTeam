@@ -27,11 +27,11 @@ const arrayLinks = [
     name: "Phasmophobia",
     img: "../../img/background-img/phasma.jpg",
   },
-  {
-    to: "/killing",
-    name: "Killing Floor 2",
-    img: "../../img/background-img/KillingFloor2.jpeg",
-  },
+  // {
+  //   to: "/killing",
+  //   name: "Killing Floor 2",
+  //   img: "../../img/background-img/KillingFloor2.jpeg",
+  // },
   {
     to: "/mob",
     name: "Mobile Legends",
