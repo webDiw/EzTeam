@@ -44,10 +44,10 @@ const Preloader = lazy(() => import("./Preloaders/Preloader")),
       path: "/phasma",
       Component: Phasmophobia,
     },
-    {
-      path: "/killing",
-      Component: KillingFloor2,
-    },
+    // {
+    //   path: "/killing",
+    //   Component: KillingFloor2,
+    // },
     {
       path: "/mob",
       Component: MobileLegends,
